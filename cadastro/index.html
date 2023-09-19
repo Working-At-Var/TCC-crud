@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="shortcut icon" href="./imagens/logo.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Cadastro</title>
+</head>
+<header>
+    <div >
+        <nav class="navbar navbar-light navbar-expand-sm d-flex justify-content-between" style="background-color: #78cdff;">
+            <a href="" class="navbar-brand px-5">
+                <img src="imagens/PHARM.png" class="width="40" height="40" class="d-inline-block align-top">
+            </a>
+            <div class="search-form">
+                <input type="search" id="caixa de pesquisa" placeholder="procure aqui..." style="height: 100%;width: 100%;font-size: 1rem;text-transform: none;padding: 1rem;border-radius: 10px;">
+                <label for="caixa de pesquisa" class="fas fa-search" style="cursor: pointer; position: absolute;left: 94%;font-size: 1.3rem;margin-right: 1.5rem;"></label>
+            </div>
+            <ul class="navbar-nav px-5">
+                <li class="nav-item d-flex flex-direction-row align-items-stretch">
+                    <a href="" class="nav-link"><i class="fa-solid fa-user"></i></a>
+                    <a href="" id="bemvindo" class="w-27 h6 text-decoration-none">Bem vindo, <br>Acesse aqui o seu perfil!</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link"><i class="fa-solid fa-basket-shopping"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link"><i class="fa-solid fa-bars"></i></a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<body>
+    <div id="container" class="container">
+        <form action="">
+            <div id="box" class="row border rounded p-3 m-5 ">
+                <div class="form-group col-md-6">
+                    <label for="" class="form-label">Nome:</label>
+                    <input type="text" name="nome" id="nome" placeholder="Digite o nome" class="form-control">
+                    
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="" class="form-label">Sobrenome:</label>
+                    <input type="text" name="sobrenome" id="sobrenome" placeholder="Digite o sobrenome" class="form-control">
+
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="" class="form-label">Telefone:</label>
+                    <input type="tel" name="telefone" id="telefone" placeholder="Digite o telefone" class="form-control">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="" class="form-label">Data de Nascimento:</label>
+                    <input type="date" name="data" id="data" class="form-control">
+
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="" class="form-label">E-mail:</label>
+                    <input type="email" name="email" id="email" placeholder="Digite o email" class="form-control">
+
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="" class="form-label">CPF:</label>
+                    <input type="number" name="cpf" id="cpf" placeholder="Digite o CPF" class="form-control">
+
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="" class="form-label">Senha:</label>
+                    <input type="password" name="senha" id="senha" placeholder="Digite a senha" class="form-control">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="" class="form-label">Confirme sua Senha:</label>
+                    <input type="password" name="confirmarSenha" id="confirmarSenha" placeholder="Confime a senha" class="form-control">
+                </div>
+                <div class="form-group pt-3 d-flex justify-content-center">
+                    <input class="btn btn-primary " type="Submit" value="Cadastrar">
+                </div>
+                
+            </div>
+        </form>
+    </div>
+</body>
+</html>
